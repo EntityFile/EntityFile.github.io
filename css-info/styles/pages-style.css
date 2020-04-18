@@ -1,0 +1,53 @@
+.down-menu h1{
+    color: lightgray;
+    font-weight: 700;
+    font-size: 70px;
+    padding: 15px 0;
+}
+
+.text1{
+    color: darkgray;
+    font-size: 30px;
+    width: 70%;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.down-menu pre{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: gainsboro;
+    width: 60%;
+}
+
+.down-menu pre code{
+    font-size: 20px;
+}
+
+.text2 {
+    color: darkgray;
+    font-size: 20px;
+    width: 70%;
+    padding-top: 20px;
+}
+
+.text3 {
+    color: darkgray;
+    font-size: 20px;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.example {
+    text-decoration: none;
+    color: #135099;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    width: 60%;
+}

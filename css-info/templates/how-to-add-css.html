@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../styles/pages-style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header clearfix">
+    <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../main-templates/html-home.html">HTML</a></li>
+        <li><a class="active" href="../../main-templates/css-home.html">CSS</a></li>
+        <li><a href="../../main-templates/about.html">About</a></li>
+    </ul>
+    <ul class="nav-bar">
+        <li><a class="active2" href="how-to-add-css.html">How to add CSS to HTML</a></li>
+        <li><a href="css-syntax.html">Overall CSS syntax</a></li>
+        <li><a href="css-selectors.html">CSS selectors</a></li>
+        <li><a href="css-box-model.html">CSS box model</a></li>
+        <li><a href="css-properties.html">Basic properties</a></li>
+        <li><a href="css-text-formatting.html">Text formatting</a></li>
+    </ul>
+    <div class = "down-menu">
+        <h1>How to add CSS to HTML</h1>
+        <p class="text1">External <strong>CSS</strong></p>
+        <p class="text2">There are <strong>3</strong> ways of adding <strong>CSS</strong> to your web page. This is the first and maybe the most common way - by linking a <strong>CSS</strong> stylesheet to your <strong>HTML</strong> code using <strong>&lt;link&gt;</strong> tag. Example:</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Title&lt;/title&gt;
+    &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Just a paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code>
+        </pre>
+        <p class="text2"><strong>rel</strong> property defines what you are connecting to the <strong>HTML</strong> file.</p>
+        <p class="text2"><strong>type</strong> property defines the type of connected element.</p>
+        <p class="text2"><strong>href</strong> property defines the reference to the connected element.</p>
+        <br>
+        <p class="text2">Lets fill the <strong>CSS</strong> file:</p>
+        <pre><code>body {
+    background-color: forestgreen;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+    font-weight: 900;
+}</code>
+        </pre>
+        <p class="text2">Your <strong>HTML</strong> page will look like <a class="example" href="how-to-add-css-example/index1.html">this</a></p>
+        <hr>
+        <p class="text1">Internal <strong>CSS</strong></p>
+        <p class="text2">The second way is adding <strong>CSS</strong> into your web page. You can do it using the <strong>&lt;style&gt;</strong> tag. Example:</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Title&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            background-color: palevioletred;
+        }
+
+        p {
+            font-family: "Franklin Gothic Medium", sans-serif;
+            color: purple;
+            font-size: 50px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p&gt;Just a paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code>
+        </pre>
+        <p class="text2">Your <strong>HTML</strong> page will look like <a class="example" href="how-to-add-css-example/index2.html">this</a></p>
+        <hr>
+        <p class="text1">Inline <strong>CSS</strong></p>
+        <p class="text2">The third way is adding a <strong>style</strong> property into appropriate tag. Example:</p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p style="font-size: 25px; color: cornflowerblue;"&gt;Just a paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code>
+        </pre>
+        <p class="text3">Your <strong>HTML</strong> page will look like <a class="example" href="how-to-add-css-example/index3.html">this</a></p>
+    </div>
+</header>
+</body>
+</html>

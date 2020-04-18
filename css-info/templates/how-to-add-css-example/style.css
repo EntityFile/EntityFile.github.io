@@ -1,0 +1,9 @@
+body {
+     background-color: forestgreen;
+ }
+
+p {
+    font-family: Arial, sans-serif;
+    color: darkgreen;
+    font-weight: 900;
+}

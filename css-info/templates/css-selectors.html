@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../styles/pages-style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header clearfix">
+    <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../main-templates/html-home.html">HTML</a></li>
+        <li><a class="active" href="../../main-templates/css-home.html">CSS</a></li>
+        <li><a href="../../main-templates/about.html">About</a></li>
+    </ul>
+    <ul class="nav-bar">
+        <li><a href="how-to-add-css.html">How to add CSS to HTML</a></li>
+        <li><a href="css-syntax.html">Overall CSS syntax</a></li>
+        <li><a class="active2" href="css-selectors.html">CSS selectors</a></li>
+        <li><a href="css-box-model.html">CSS box model</a></li>
+        <li><a href="css-properties.html">Basic properties</a></li>
+        <li><a href="css-text-formatting.html">Text formatting</a></li>
+    </ul>
+    <div class = "down-menu">
+        <h1>CSS selectors</h1>
+        <p class="text1"><strong>CSS</strong> ID selector</p>
+        <p class="text2">There are several types of selectors in <strong>CSS</strong>. The id selector is one of them. It is used to select some appropriate id's. <strong>CSS</strong> example:</p>
+        <pre><code>#par1 {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 30px;
+}</code>
+        </pre>
+        <p class="text2">We use <strong>#</strong> symbol so select appropriate id.</p>
+        <p class="text2">Your <strong>HTML</strong> page will look like <a class="example" href="css-selectors-example/index1.html">this</a></p>
+        <hr>
+        <p class="text1"><strong>CSS</strong> class selector</p>
+        <p class="text2">The second type is class selector. It is used to select a specific class. <strong>CSS</strong> Example:</p>
+        <pre><code>.par1 {
+    color: lightcoral;
+    text-align: right;
+    font-size: 40px;
+}</code>
+        </pre>
+        <p class="text2">Your <strong>HTML</strong> page will look like <a class="example" href="css-selectors-example/index2.html">this</a></p>
+        <p class="text2">You can also specify that only specific HTML elements should be affected by a class. In this example only &lt;p&gt; elements with <strong>class="par1"</strong> will be affected:</p>
+        <pre><code>p.par1 {
+    color: lightcoral;
+    text-align: right;
+    font-size: 40px;
+}</code>
+        </pre>
+        <p class="text2">We use <strong>.</strong> symbol so select appropriate class.</p>
+        <hr>
+        <p class="text1"><strong>CSS</strong> universal selector</p>
+        <p class="text2">This selector selects all elements on the page. Example:</p>
+        <pre><code>* {
+    color: green;
+}</code>
+        </pre>
+        <p class="text2">Your <strong>HTML</strong> page will look like <a class="example" href="css-selectors-example/index3.html">this</a></p>
+        <hr>
+        <p class="text1"><strong>CSS</strong> grouping selector</p>
+        <p class="text2">This selector selects all elements with same style definitions. Example:</p>
+        <pre><code>h1 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}</code>
+        </pre>
+        <p class="text3">Your <strong>HTML</strong> page will look like <a class="example" href="css-selectors-example/index4.html">this</a></p>
+    </div>
+</header>
+</body>
+</html>

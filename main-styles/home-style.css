@@ -1,0 +1,97 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.site-header {
+    width: 100%;
+    height: 100vh;
+    background: #282923;
+}
+
+ul {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%; height: 10.3%;
+    background-color:  #10418A;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    height: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 100% 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #135099;
+}
+
+.active {
+    background-color: #135099;
+}
+.nav-bar {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%; height: 7%;
+    background-color:  #135099;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    height: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 100% 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    background-color: gray;
+}
+
+.down-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 82.7%;
+}
+
+.down-menu h1{
+    color: lightgray;
+    font-weight: 700;
+    font-size: 70px;
+    padding: 15px 0;
+}
+
+.down-menu p{
+    color: darkgray;
+    font-size: 30px;
+    width: 70%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    width: 60%;
+}
